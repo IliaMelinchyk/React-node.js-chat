@@ -1,0 +1,56 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  color: #f7f3e3;
+}
+
+.textOnline {
+  display: flex;
+  align-items: center;
+}
+
+.textUl {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.textLi {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.textLi::after {
+  content: ",";
+}
+
+.textLi:last-of-type::after {
+  display: none;
+}
+
+.textButton {
+  margin-top: 15px;
+  padding: 15px;
+  background: #6f1a07;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  color: #f7f3e3;
+  font-size: 18px;
+}
+
+.textButton:hover {
+  bottom: 5px;
+}
+
+.textButton:active {
+  bottom: 0px;
+}
+
+.textHeader {
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+.inputForm {
+  display: flex;
+  border-top: 3px solid #af9164;
+  border-radius: 0 0 10px 10px;
+}
+
+.inputMessage {
+  border: none;
+  border-radius: 0 0 0 10px;
+  padding: 0 10px;
+  width: calc(100% - 180px);
+  font-size: 20px;
+  background-color: #f7f3e3;
+  color: #2b2118;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  border-radius: 0 0 10px 0;
+  color: #f7f3e3 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #6f1a07;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 180px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.sendButtonDeactivated {
+  cursor: not-allowed;
+  background-color: #b3b6b7;
+  color: #2b2118 !important;
+}
+
+.inputIcon {
+  position: relative;
+  top: 2px;
+}
